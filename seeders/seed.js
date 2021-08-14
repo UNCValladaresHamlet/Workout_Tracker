@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const db = require('../models');
 // const db = require('../models/user');
 
-mongoose.connect('mongodb://localhost/workout', {
+mongoose.connect('mongodb+srv://Hamlet-admin:Password44@cluster0.e6kue.mongodb.net/Workout?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
